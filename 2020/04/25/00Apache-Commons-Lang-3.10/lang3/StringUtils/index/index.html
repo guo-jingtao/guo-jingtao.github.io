@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		About | 
+		StringUtils | 
 	 
 	guo_jingtao
 	</title>
@@ -204,7 +204,7 @@
 									</a>
 									
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2020/04/25/00Apache-Commons-Lang-3.10/lang3/StringUtils/index/">
 										index
 									</a>
@@ -323,20 +323,108 @@
 	<div id="content">
 		<h1 id="article-title">
 
-	About
+	index
 </h1>
 <div class="article-meta">
 	
 	<span>guo_jingtao</span>
-	<span>2020-04-24 11:52:50</span>
+	<span>2020-04-25 15:49:27</span>
+    
+		<div id="article-categories">
+            
+		</div>
     
 </div>
 
 <div id="article-content">
-	<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>上海是一个好地方！</p>
+	<p>Operations on String that are null safe.</p>
+<h2 id="All-Methods"><a href="#All-Methods" class="headerlink" title="All Methods:"></a>All Methods:</h2><h2 id="truncate-String-str-int-maxWidth"><a href="#truncate-String-str-int-maxWidth" class="headerlink" title="truncate(String str, int maxWidth)"></a>truncate(String str, int maxWidth)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>truncate(String str, int maxWidth)<br>Truncates a String.</td>
+</tr>
+</tbody></table>
+<h2 id="truncate-String-str-int-offset-int-maxWidth"><a href="#truncate-String-str-int-offset-int-maxWidth" class="headerlink" title="truncate(String str, int offset, int maxWidth)"></a>truncate(String str, int offset, int maxWidth)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>truncate(String str, int offset, int maxWidth)<br>Truncates a String.</td>
+</tr>
+</tbody></table>
+<h2 id="wrap-String-str-char-wrapWith"><a href="#wrap-String-str-char-wrapWith" class="headerlink" title="wrap(String str, char wrapWith)"></a>wrap(String str, char wrapWith)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>wrap(String str, char wrapWith)<br>Wraps a string with a char.</td>
+</tr>
+</tbody></table>
+<h2 id="wrap-String-str-String-wrapWith"><a href="#wrap-String-str-String-wrapWith" class="headerlink" title="wrap(String str, String wrapWith)"></a>wrap(String str, String wrapWith)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>wrap(String str, String wrapWith)<br>Wraps a String with another String.</td>
+</tr>
+</tbody></table>
+<h2 id="getDigits-String-str"><a href="#getDigits-String-str" class="headerlink" title="getDigits(String str)"></a>getDigits(String str)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Checks if a String str contains Unicode digits, if yes then concatenate all the digits in str and return it as a String.</td>
+</tr>
+</tbody></table>
+<ul>
+<li>返回字符串中的数字部分</li>
+</ul>
+<pre><code class="java">    System.out.print(StringUtils.getDigits(&quot;a1jingt33&quot;));
+    // result:133</code></pre>
 
 </div>
 
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/lang3/RegExUtils/index/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  index
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/lang3/BooleanUtils/index/">
+                index
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
 
 
 

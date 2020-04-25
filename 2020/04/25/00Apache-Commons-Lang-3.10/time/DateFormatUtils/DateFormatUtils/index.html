@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		About | 
+		DateFormatUtils | 
 	 
 	guo_jingtao
 	</title>
@@ -275,7 +275,7 @@
 									</a>
 									
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2020/04/25/00Apache-Commons-Lang-3.10/time/DateFormatUtils/DateFormatUtils/">
 										DateFormatUtils
 									</a>
@@ -323,20 +323,127 @@
 	<div id="content">
 		<h1 id="article-title">
 
-	About
+	DateFormatUtils
 </h1>
 <div class="article-meta">
 	
 	<span>guo_jingtao</span>
-	<span>2020-04-24 11:52:50</span>
+	<span>2020-04-25 19:52:01</span>
+    
+		<div id="article-categories">
+            
+		</div>
     
 </div>
 
 <div id="article-content">
-	<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>上海是一个好地方！</p>
+	<p>Date and time formatting utilities and constants.</p>
+<h2 id="All-Methods"><a href="#All-Methods" class="headerlink" title="All Methods:"></a>All Methods:</h2><h2 id="format-Date-date-String-pattern"><a href="#format-Date-date-String-pattern" class="headerlink" title="format(Date date, String pattern)"></a>format(Date date, String pattern)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a date/time into a specific pattern.</td>
+</tr>
+</tbody></table>
+<pre><code class="java">        Date date=new Date();
+        String dataTime=DateFormatUtils.format(date, &quot;yyyy-MM-dd HH:mm:ss&quot;);
+        System.out.println(dataTime);</code></pre>
+<h2 id="format-Date-date-String-pattern-Locale-locale"><a href="#format-Date-date-String-pattern-Locale-locale" class="headerlink" title="format(Date date, String pattern, Locale locale)"></a>format(Date date, String pattern, Locale locale)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a date/time into a specific pattern in a locale.</td>
+</tr>
+</tbody></table>
+<pre><code class="java">        Date date=new Date();
+        String dataTime=DateFormatUtils.format(date, &quot;yyyy-MM-dd HH:mm:ss&quot;,Locale.CHINA);
+        System.out.println(dataTime);</code></pre>
+<h2 id="format-Date-date-String-pattern-TimeZone-timeZone"><a href="#format-Date-date-String-pattern-TimeZone-timeZone" class="headerlink" title="format(Date date, String pattern, TimeZone timeZone)"></a>format(Date date, String pattern, TimeZone timeZone)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a date/time into a specific pattern in a time zone.</td>
+</tr>
+</tbody></table>
+<pre><code class="java">        Date date=new Date();
+        String dataTime=DateFormatUtils.format(date, &quot;yyyy-MM-dd HH:mm:ss&quot;,TimeZone.getDefault());
+        System.out.println(dataTime);</code></pre>
+<h2 id="format-Calendar-calendar-String-pattern"><a href="#format-Calendar-calendar-String-pattern" class="headerlink" title="format(Calendar calendar, String pattern)"></a>format(Calendar calendar, String pattern)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a calendar into a specific pattern.</td>
+</tr>
+</tbody></table>
+<pre><code class="java">        Calendar c=Calendar.getInstance();
+        String dataTime=DateFormatUtils.format(c, &quot;yyyy-MM-dd HH:mm:ss&quot;);
+        System.out.println(dataTime);</code></pre>
+<h2 id="format-Calendar-calendar-String-pattern-Locale-locale"><a href="#format-Calendar-calendar-String-pattern-Locale-locale" class="headerlink" title="format(Calendar calendar, String pattern, Locale locale)"></a>format(Calendar calendar, String pattern, Locale locale)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a calendar into a specific pattern in a locale.</td>
+</tr>
+</tbody></table>
+<h2 id="format-Calendar-calendar-String-pattern-TimeZone-timeZone"><a href="#format-Calendar-calendar-String-pattern-TimeZone-timeZone" class="headerlink" title="format(Calendar calendar, String pattern, TimeZone timeZone)"></a>format(Calendar calendar, String pattern, TimeZone timeZone)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String</td>
+<td>Formats a calendar into a specific pattern in a time zone.</td>
+</tr>
+</tbody></table>
 
 </div>
 
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/time/DateUtils/DateUtils/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  DateUtils
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/time/CalendarUtils/CalendarUtils/">
+                CalendarUtils
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
 
 
 

@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		About | 
+		ArrayUtils | 
 	 
 	guo_jingtao
 	</title>
@@ -144,7 +144,7 @@
 									</a>
 									
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2020/04/25/00Apache-Commons-Lang-3.10/lang3/ArrayUtils/index/">
 										index
 									</a>
@@ -323,20 +323,122 @@
 	<div id="content">
 		<h1 id="article-title">
 
-	About
+	index
 </h1>
 <div class="article-meta">
 	
 	<span>guo_jingtao</span>
-	<span>2020-04-24 11:52:50</span>
+	<span>2020-04-25 15:43:43</span>
+    
+		<div id="article-categories">
+            
+		</div>
     
 </div>
 
 <div id="article-content">
-	<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>上海是一个好地方！</p>
+	<p>Operations on arrays, primitive arrays (like int[]) and primitive wrapper arrays (like Integer[]).</p>
+<h2 id="All-Methods"><a href="#All-Methods" class="headerlink" title="All Methods:"></a>All Methods:</h2><h2 id="add-String-array-String-element"><a href="#add-String-array-String-element" class="headerlink" title="add(String[] array, String element)"></a>add(String[] array, String element)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static String[]</td>
+<td>add(String[] array, String element)<br>Copies the given array and adds the given element at the end of the new array.</td>
+</tr>
+</tbody></table>
+<pre><code class="java">    String[] arr = new String[]{&quot;hello&quot;,&quot;word&quot;};
+    String[] arrOp = ArrayUtils.add(arr,&quot;java&quot;);
+    System.out.println(arrOp.length);
+    // result:3</code></pre>
+<h2 id="addAll-boolean-array1-boolean…-array2"><a href="#addAll-boolean-array1-boolean…-array2" class="headerlink" title="addAll(boolean[] array1, boolean… array2)"></a>addAll(boolean[] array1, boolean… array2)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static boolean[]</td>
+<td>addAll(boolean[] array1, boolean… array2)<br>Adds all the elements of the given arrays into a new array.</td>
+</tr>
+</tbody></table>
+<h2 id="addFirst-boolean-array-boolean-element"><a href="#addFirst-boolean-array-boolean-element" class="headerlink" title="addFirst(boolean[] array, boolean element)"></a>addFirst(boolean[] array, boolean element)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static boolean[]</td>
+<td>addFirst(boolean[] array, boolean element)<br>Copies the given array and adds the given element at the beginning of the new array.</td>
+</tr>
+</tbody></table>
+<h2 id="clone-boolean-array"><a href="#clone-boolean-array" class="headerlink" title="clone(boolean[] array)"></a>clone(boolean[] array)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static boolean[]</td>
+<td>clone(boolean[] array)<br>Clones an array returning a typecast result and handling null.</td>
+</tr>
+</tbody></table>
+<ul>
+<li>This method returns null for a null input array. 也就是说如果输入的对象为null，则返回的对象也为null</li>
+</ul>
+<h2 id="contains-boolean-array-boolean-valueToFind"><a href="#contains-boolean-array-boolean-valueToFind" class="headerlink" title="contains(boolean[] array, boolean valueToFind)"></a>contains(boolean[] array, boolean valueToFind)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static boolean[]</td>
+<td>contains(boolean[] array, boolean valueToFind)<br>Checks if the value is in the given array.</td>
+</tr>
+</tbody></table>
+<h2 id="isEmpty-boolean-array"><a href="#isEmpty-boolean-array" class="headerlink" title="isEmpty(boolean[] array)"></a>isEmpty(boolean[] array)</h2><table>
+<thead>
+<tr>
+<th>Modifier and Type</th>
+<th>Method and Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>static boolean[]</td>
+<td>isEmpty(boolean[] array)<br>Checks if an array of primitive booleans is empty or null.</td>
+</tr>
+</tbody></table>
 
 </div>
 
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/lang3/BooleanUtils/index/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  index
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2020/04/25/00Apache-Commons-Lang-3.10/outline/index/">
+                
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
 
 
 
